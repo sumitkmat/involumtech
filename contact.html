@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Involume Technologies</title>
+    <meta name="description" content="Get in touch with Involume Technologies. Contact us for software consulting, project discussions, partnerships, or general inquiries.">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container flex-between">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">iT</div>
+                <div class="logo-text">
+                    <span class="logo-name">Involume</span>
+                    <span class="logo-tagline">Technologies</span>
+                </div>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li class="nav-cta"><a href="contact.html" class="btn btn-primary btn-sm">Get a Quote</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="page-hero-grid"></div>
+        <div id="page-hero-particles"></div>
+        <div class="hero-float hf-1"></div>
+        <div class="hero-float hf-2"></div>
+        <div class="hero-float hf-3"></div>
+        <div class="page-hero-content">
+            <h1>Get in <span class="text-gradient">Touch</span></h1>
+            <p class="page-hero-desc">Ready to transform your business? Let's start a conversation about your next big project.</p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span class="breadcrumb-separator"><i class="fas fa-chevron-right"></i></span>
+                <span>Contact</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Left - Info -->
+                <div class="contact-info animate-on-scroll">
+                    <h2>Let's <span class="text-gradient">Connect</span></h2>
+                    <p>Whether you have a question, want to discuss a project, or just want to say hello, we're here for you.</p>
+
+                    <div class="contact-cards">
+                        <div class="contact-card" id="contact-address">
+                            <div class="contact-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="contact-card-content">
+                                <h4>Office Address</h4>
+                                <p>42, Tech Hub Tower, Sector 62,<br>Noida, UP - 201301, India</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card" id="contact-email">
+                            <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-card-content">
+                                <h4>Email Us</h4>
+                                <p>info@involume.com<br>careers@involume.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card" id="contact-phone">
+                            <div class="contact-card-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="contact-card-content">
+                                <h4>Call Us</h4>
+                                <p>+91 7763060242<br>+91 7258832745</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card" id="contact-hours">
+                            <div class="contact-card-icon"><i class="fas fa-clock"></i></div>
+                            <div class="contact-card-content">
+                                <h4>Business Hours</h4>
+                                <p>Mon - Fri: 9:00 AM - 6:00 PM IST<br>Sat: 10:00 AM - 2:00 PM IST</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-socials">
+                        <a href="#" class="contact-social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="contact-social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="contact-social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="contact-social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="contact-social-link"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+
+                <!-- Right - Form -->
+                <div class="contact-form-wrapper animate-on-scroll animate-delay-2" id="contact-form-wrapper">
+                    <h3>Send Us a <span class="text-gradient">Message</span></h3>
+
+                    <form id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name <span class="required">*</span></label>
+                                <input type="text" id="name" class="form-control" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address <span class="required">*</span></label>
+                                <input type="email" id="email" class="form-control" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" class="form-control" placeholder="+91 XXXXX XXXXX">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" class="form-control">
+                                    <option value="">Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="project">Project Discussion</option>
+                                    <option value="partnership">Partnership</option>
+                                    <option value="career">Career</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Project Budget</label>
+                            <select id="budget" class="form-control">
+                                <option value="">Select budget range</option>
+                                <option value="under5">Under ₹5 Lakh</option>
+                                <option value="5to15">₹5 Lakh - ₹15 Lakh</option>
+                                <option value="15to50">₹15 Lakh - ₹50 Lakh</option>
+                                <option value="50plus">₹50 Lakh+</option>
+                                <option value="notsure">Not Sure</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message <span class="required">*</span></label>
+                            <textarea id="message" class="form-control" placeholder="Tell us about your project..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="form-submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+
+                    <div class="form-success" id="form-success">
+                        <div class="form-success-icon"><i class="fas fa-check-circle"></i></div>
+                        <h4>Message Sent Successfully!</h4>
+                        <p>Thank you for reaching out. Our team will get back to you within 24 hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section class="section map-section" id="map">
+        <div class="container">
+            <div class="text-center animate-on-scroll">
+                <span class="section-subtitle">Location</span>
+                <h2 class="section-title">Find Us <span class="text-gradient">Here</span></h2>
+            </div>
+            <div class="map-container animate-on-scroll animate-delay-2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.206817793!2d77.3640!3d28.6266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5456dced24b%3A0x3b1e0f8d79f7c00e!2sSector%2062%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq-section" id="faq">
+        <div class="container">
+            <div class="text-center animate-on-scroll">
+                <span class="section-subtitle">FAQ</span>
+                <h2 class="section-title">Frequently Asked <span class="text-gradient">Questions</span></h2>
+                <p class="section-desc">Find answers to common questions about our services, process, and support.</p>
+            </div>
+
+            <div class="faq-list animate-on-scroll animate-delay-2">
+                <div class="faq-item" id="faq-1">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>How long does a typical project take?</h4>
+                        <div class="faq-toggle"><i class="fas fa-plus"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Project timelines vary based on scope and complexity. A typical MVP takes 8-12 weeks, while enterprise solutions may take 4-6 months. We provide detailed timelines during the discovery phase and keep you updated with bi-weekly sprint reviews.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" id="faq-2">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>What is your development methodology?</h4>
+                        <div class="faq-toggle"><i class="fas fa-plus"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We follow Agile/Scrum methodology with 2-week sprints, daily standups, and regular client demos. This ensures transparency and allows for iterative improvements. We use tools like Jira, Slack, and GitHub for seamless collaboration.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" id="faq-3">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>Do you provide post-launch support?</h4>
+                        <div class="faq-toggle"><i class="fas fa-plus"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Absolutely! We offer comprehensive post-launch support packages including bug fixes, performance monitoring, feature updates, and 24/7 emergency support. We also provide SLA-based maintenance contracts for enterprise clients.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" id="faq-4">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>What technologies do you specialize in?</h4>
+                        <div class="faq-toggle"><i class="fas fa-plus"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Our core expertise includes React, Angular, Node.js, Python, AWS, Azure, Docker, Kubernetes, and AI/ML frameworks like TensorFlow and PyTorch. We choose the best technology stack based on your project requirements and scalability needs.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" id="faq-5">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>How do we get started?</h4>
+                        <div class="faq-toggle"><i class="fas fa-plus"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Simply fill out the contact form above or email us at hello@involume.tech. We'll schedule a free consultation call to understand your requirements and provide a detailed proposal within 48 hours. No commitment required!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Call CTA -->
+    <section class="section call-cta">
+        <div class="container">
+            <div class="call-cta-content animate-on-scroll">
+                <h2>Prefer a <span class="text-gradient">Quick Call?</span></h2>
+                <p>Schedule a free 30-minute consultation with our experts.</p>
+                <div class="call-cta-phone">
+                    <i class="fas fa-phone-alt"></i>
+                    +91-120-456-7890
+                </div>
+                <a href="tel:+911204567890" class="btn btn-primary btn-lg">
+                    <i class="fas fa-phone-alt"></i> Schedule a Call
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-about">
+                        <a href="index.html" class="logo">
+                            <div class="logo-icon">iT</div>
+                            <div class="logo-text">
+                                <span class="logo-name">Involume</span>
+                                <span class="logo-tagline">Technologies</span>
+                            </div>
+                        </a>
+                        <p>Empowering enterprises with innovative software solutions, cloud infrastructure, and AI-driven innovation since 2018.</p>
+                        <div class="footer-social">
+                            <a href="#" class="footer-social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="footer-social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="footer-social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <div class="footer-links">
+                            <a href="index.html" class="footer-link">Home</a>
+                            <a href="services.html" class="footer-link">Services</a>
+                            <a href="about.html" class="footer-link">About Us</a>
+                            <a href="contact.html" class="footer-link">Contact</a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Services</h4>
+                        <div class="footer-links">
+                            <a href="services.html" class="footer-link">Custom Software</a>
+                            <a href="services.html" class="footer-link">Cloud Solutions</a>
+                            <a href="services.html" class="footer-link">AI & ML</a>
+                            <a href="services.html" class="footer-link">Mobile Apps</a>
+                            <a href="services.html" class="footer-link">IT Consulting</a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contact Info</h4>
+                        <div class="footer-contact">
+                            <div class="footer-contact-item">
+                                <div class="footer-contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="footer-contact-text"><h5>Office</h5><p>42, Tech Hub Tower, Sector 62, Noida, UP - 201301</p></div>
+                            </div>
+                            <div class="footer-contact-item">
+                                <div class="footer-contact-icon"><i class="fas fa-envelope"></i></div>
+                                <div class="footer-contact-text"><h5>Email</h5><p>hello@involume.com</p></div>
+                            </div>
+                            <div class="footer-contact-item">
+                                <div class="footer-contact-icon"><i class="fas fa-phone-alt"></i></div>
+                                <div class="footer-contact-text"><h5>Phone</h5><p>+91 77630 60242</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="footer-copyright">&copy; 2026 <a href="index.html">Involume Technologies</a>. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#" class="footer-bottom-link">Privacy Policy</a>
+                    <a href="#" class="footer-bottom-link">Terms of Service</a>
+                    <a href="#" class="footer-bottom-link">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="back-to-top"><i class="fas fa-chevron-up"></i></button>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize particles
+        document.addEventListener('DOMContentLoaded', () => {
+            initParticles('page-hero-particles', 40);
+        });
+
+        // FAQ Accordion
+        function toggleFaq(element) {
+            const faqItem = element.parentElement;
+            const isActive = faqItem.classList.contains('active');
+
+            // Close all
+            document.querySelectorAll('.faq-item').forEach(item => {
+                item.classList.remove('active');
+            });
+
+            // Open clicked if wasn't active
+            if (!isActive) {
+                faqItem.classList.add('active');
+            }
+        }
+
+        // Contact Form Handler
+        const contactForm = document.getElementById('contact-form');
+        const formSuccess = document.getElementById('form-success');
+
+        if (contactForm) {
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+
+                // Hide form, show success
+                contactForm.style.display = 'none';
+                formSuccess.classList.add('show');
+
+                // Reset after 4 seconds
+                setTimeout(() => {
+                    contactForm.style.display = 'block';
+                    formSuccess.classList.remove('show');
+                    contactForm.reset();
+                }, 4000);
+            });
+        }
+    </script>
+</body>
+</html>
